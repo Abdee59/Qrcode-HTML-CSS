@@ -1,0 +1,50 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background-color: #d6e1f0;
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+#qrcode {
+  border-radius: 10px;
+}
+.qr-code img {
+  width: 100%;
+  max-width: 320px;
+}
+.container-qr-code {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 270px;
+}
+.container-qr-code h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  text-align: center;
+}
+
+.container-qr-code p {
+  font-size: 16px;
+  text-align: center;
+  color: grey;
+  align-items: center;
+}
